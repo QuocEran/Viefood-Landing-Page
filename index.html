@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="icon" href="assets/icon/VieFood.png" type="image/icon type" />
+    <title>Viefood</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+      <div class="mb-move-item"></div>
+      <div class="mb-nav-item active">
+        <a href="#home">
+          <i class="bx bxs-home"></i>
+        </a>
+      </div>
+      <div class="mb-nav-item">
+        <a href="#about">
+          <i class="bx bxs-wink-smile"></i>
+        </a>
+      </div>
+      <div class="mb-nav-item">
+        <a href="#food-menu-section">
+          <i class="bx bxs-food-menu"></i>
+        </a>
+      </div>
+      <div class="mb-nav-item">
+        <a href="#testimonial">
+          <i class="bx bxs-comment-detail"></i>
+        </a>
+      </div>
+    </div>
+    <!-- END MOBILE NAV -->
+
+    <!-- BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+      <i class="bx bxs-to-top"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
+
+    <!-- TOP NAVIGATION -->
+    <div class="nav">
+      <div class="menu-wrap">
+        <a href="#home">
+          <div class="logo zoom play-on-scroll">Viefood</div>
+        </a>
+        <div class="menu h-xs">
+          <a href="#home">
+            <div class="menu-item zoom play-on-scroll active">Home</div>
+          </a>
+          <a href="#about">
+            <div class="menu-item zoom play-on-scroll">About</div>
+          </a>
+          <a href="#food-menu-section">
+            <div class="menu-item zoom play-on-scroll">Menu</div>
+          </a>
+          <a href="#testimonial">
+            <div class="menu-item zoom play-on-scroll">Testimonials</div>
+          </a>
+        </div>
+        <div class="right-menu">
+          <div class="cart-btn zoom play-on-scroll">
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END TOP NAVIGATION -->
+
+    <!--HOME SECTION -->
+    <section
+      id="home"
+      class="fullheight align-items-center bg-img bg-img-fixed"
+      style="background-image: url(assets/background_img.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-xs-8">
+            <div class="slogan">
+              <h1 class="left-to-right play-on-scroll">Viefood</h1>
+              <p class="left-to-right play-on-scroll delay-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+                eveniet ullam perferendis eos, nobis corrupti similique fuga
+                ipsa minus at eius ipsam expedita quam aliquam perspiciatis
+                voluptate qui dolore soluta.
+              </p>
+              <div class="left-to-right play-on-scroll delay-4">
+                <button>Order now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END HOME SECTION -->
+
+    <!-- ABOUT SECTION -->
+    <section class="about fullheight align-items-center" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 h-xs">
+            <img
+              src="assets/vietnamtable_about.jpg"
+              alt=""
+              class="fullwidth left-to-right play-on-scroll"
+            />
+          </div>
+          <div class="col-5 col-xs-12 align-items-center">
+            <div class="about-slogan right-to-left play-on-scroll">
+              <h3>
+                <span class="primary-color">We</span> create
+                <span class="primary-color">delicious</span> memories for
+                <span class="primary-color">you</span>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+                natus placeat et eos, dignissimos voluptatem tempora
+                necessitatibus doloribus! Eum qui doloribus odio dolor tenetur
+                nihil impedit vero magni, distinctio soluta!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT SECTION -->
+
+    <!-- FOOD MENU SECTION -->
+    <section
+      class="align-items-center bg-img bg-img-fixed"
+      id="food-menu-section"
+      style="background-image: url(assets/menu_img.jpg); object-fit: cover"
+    >
+      <div class="container">
+        <div class="food-menu">
+          <h1>What will <span class="primary-color">you</span> eat today?</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            alias aliquam eveniet, iure praesentium dicta ex dolorum inventore
+            itaque minus repudiandae, odio provident? Velit architecto natus
+            expedita non? Odio, dolorum.
+          </p>
+          <div class="food-category col-xs-12">
+            <div class="zoom play-on-scroll">
+              <button class="active" data-food-type="all">All food</button>
+            </div>
+            <div class="zoom play-on-scroll delay-2">
+              <button data-food-type="rice">Rice</button>
+            </div>
+            <div class="zoom play-on-scroll delay-4">
+              <button data-food-type="soup">Soup</button>
+            </div>
+            <div class="zoom play-on-scroll delay-6">
+              <button data-food-type="noodles">Noodles</button>
+            </div>
+            <div class="zoom play-on-scroll delay-8">
+              <button data-food-type="riceCakes">Rice Cakes</button>
+            </div>
+            <div class="zoom play-on-scroll delay-10">
+              <button data-food-type="bread">Bread</button>
+            </div>
+            <div class="zoom play-on-scroll delay-12">
+              <button data-food-type="desserts">Desserts</button>
+            </div>
+          </div>
+
+          <div class="food-item-wrap all">
+            <!-- Rice  -->
+            <div class="food-item rice-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/ComTam.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Com Tam</h3>
+                    <span>5$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Soup -->
+            <div class="food-item soup-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/CanhChua.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Canh chua</h3>
+                    <span>2$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Noodles -->
+            <div class="food-item noodles-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/PhoBo.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Pho Bo</h3>
+                    <span>5$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item noodles-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/MiQuang1.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Mi Quang</h3>
+                    <span>3$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item noodles-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/BunChaCa1.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Bun Cha Ca</h3>
+                    <span>3$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item noodles-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/CaoLau.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Cao Lau</h3>
+                    <span>3$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item noodles-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/BunBoHue.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Bun Bo Hue</h3>
+                    <span>5$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="food-item noodles-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/HuTieu.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Hu Tieu Nam Vang</h3>
+                    <span>5$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Rice Cake -->
+            <div class="food-item riceCakes-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/BanhCuon.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Banh Cuon</h3>
+                    <span>3$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item riceCakes-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/BanhXeo.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Banh Xeo</h3>
+                    <span>3$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item riceCakes-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/GoiCuon.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Goi Cuon</h3>
+                    <span>2$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Bread -->
+            <div class="food-item bread-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/BanhMi.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Banh Mi Sai Gon</h3>
+                    <span>1.5$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item bread-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/BanhMidn.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Banh Mi Da Nang</h3>
+                    <span>1.5$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Desserts -->
+            <div class="food-item desserts-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/Che.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Che Thai</h3>
+                    <span>1$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item desserts-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/CheChuoi.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Che Chuoi</h3>
+                    <span>1$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item desserts-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/CheBap.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div>
+                    <h3>Che Bap</h3>
+                    <span>1$</span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonial" id="testimonial">
+      <div class="container swiper mySwiper zoom play-on-scroll delay-2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="review-wrap">
+              <div class="review-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam, labore nisi non molestias, minus laboriosam nostrum
+                  impedit iure facilis odio unde quia ad sunt corrupti dolores
+                  ratione voluptatibus quidem explicabo.
+                </p>
+
+                <div
+                  class="review-img bg-img"
+                  style="background-image: url(assets/men1.jpg)"
+                ></div>
+              </div>
+              <div class="review-info">
+                <h3>Lorem Ipsum Dolor</h3>
+                <div class="rating">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="review-wrap">
+              <div class="review-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam, labore nisi non molestias, minus laboriosam nostrum
+                  impedit iure facilis odio unde quia ad sunt corrupti dolores
+                  ratione voluptatibus quidem explicabo.
+                </p>
+                <div
+                  class="review-img bg-img"
+                  style="background-image: url(assets/woman1.jpg)"
+                ></div>
+              </div>
+              <div class="review-info">
+                <h3>Lorem Ipsum Dolor</h3>
+                <div class="rating">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="review-wrap">
+              <div class="review-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam, labore nisi non molestias, minus laboriosam nostrum
+                  impedit iure facilis odio unde quia ad sunt corrupti dolores
+                  ratione voluptatibus quidem explicabo.
+                </p>
+                <div
+                  class="review-img bg-img"
+                  style="background-image: url(assets/woman2.jpg)"
+                ></div>
+              </div>
+              <div class="review-info">
+                <h3>Lorem Ipsum Dolor</h3>
+                <div class="rating">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- END TESTIMONIALS SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <section
+      class="footer bg-img"
+      style="
+        background-image: linear-gradient(
+            0,
+            rgb(22, 13, 75, 0.5),
+            rgba(10, 10, 10, 0.8)
+          ),
+          url(assets/footer_img.jpg);
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-xs-12">
+            <h1>Viefood</h1>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Incidunt, quas harum? Atque eius quaerat fuga sint molestiae illo
+              corrupti vitae voluptatibus. Dicta rerum est delectus perspiciatis
+              nemo nihil autem! Doloremque?
+            </p>
+            <br />
+            <p>Email: example@mail.com</p>
+            <p>Phone: +00 123 456 789</p>
+            <p>Website: viefood.com</p>
+          </div>
+          <div class="col-2 col-xs-12">
+            <h1>About us</h1>
+            <br />
+            <p>
+              <a href="#"> Chefs </a>
+            </p>
+            <p>
+              <a href="#"> Menu </a>
+            </p>
+            <p>
+              <a href="#"> Testimonials </a>
+            </p>
+            <p>
+              <a href="#"> Lorem ipsum </a>
+            </p>
+          </div>
+          <div class="col-4 col-xs-12">
+            <h1>Subscribe & media</h1>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
+              aspernatur doloremque rerum nam ullam obcaecati error asperiores
+              temporibus quo eum eaque sed odio vitae accusantium, dolorem nihil
+              molestiae deserunt maxime!
+            </p>
+            <div class="input-group">
+              <input type="text" placeholder="Enter your email" />
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOTER SECTION -->
+
+    <!-- script -->
+    <script src="main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        breakpoints: {
+          769: { slidesPerView: 3, spaceBetween: 30 },
+        },
+        centeredSlides: true,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
